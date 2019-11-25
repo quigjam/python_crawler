@@ -12,7 +12,7 @@ def place_player(current_room = Room(),player_row = 0,player_index = 0):
     
     if player_row != 0 and player_index != 0:
         
-        current_layout[player_row][player_]
+        current_layout[player_row][player_index]
         
         
     else:
@@ -69,7 +69,7 @@ def build_room():
 
 def place_door(room, room_total):
 
-    
+     
     layout = room.layout
     length = room.length
     width = room.width
@@ -96,7 +96,7 @@ def place_door(room, room_total):
             elif door_side == 1:
         
                 layout[door_row][-1] = 'd'
-                
+               
                 
     else:
            
